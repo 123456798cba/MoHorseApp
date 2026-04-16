@@ -64,9 +64,9 @@ migrate_working_dir/
 **/ios/**/.vagrant/
 **/ios/**/DerivedData/
 **/ios/**/Icon?
-**/ios/**/Assets.xcassets/AppIcon.appiconset/Icon-App-*.png
-**/ios/**/Assets.xcassets/AppIcon.appiconset/Contents.json
-**/ios/**/Assets.xcassets/Contents.json
+# **/ios/**/Assets.xcassets/AppIcon.appiconset/Icon-App-*.png  # Needed for iOS builds
+# **/ios/**/Assets.xcassets/AppIcon.appiconset/Contents.json  # Needed for iOS builds
+# **/ios/**/Assets.xcassets/Contents.json  # Needed for iOS builds
 **/ios/**/project.xcworkspace
 !**/ios/**/project.xcworkspace/contents.xcworkspacedata
 !**/ios/**/project.xcworkspace/xcshareddata/
